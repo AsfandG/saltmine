@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "sass": "sass --watch src/styles/sass/main.scss:src/styles/css/main.css"
   },
   "dependencies": {
     "@types/node": "20.2.0",
@@ -15,6 +16,10 @@
     "next": "13.4.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-icons": "^4.8.0",
     "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "sass": "^1.62.1"
   }
 }
